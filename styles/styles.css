@@ -102,7 +102,7 @@ img {
 }
 
 .nohover-img {
-    display: block;
+    display: inline-block;
 }
 
 .card:hover .nohover-img {
@@ -110,7 +110,7 @@ img {
 }
 
 .card:hover .hover-img {
-    display: block;
+    display: inline-block;
 }
 
 /* Etichette sconti e sostenibilità */

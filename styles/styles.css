@@ -11,8 +11,8 @@
     display: flex;
 }
 
-.containter {
-    width: 500px;
+.container {
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -20,14 +20,14 @@
 
 header {
     position: fixed;
+    background-color: #ff6900;
     width: 100%;
 }
 
 .navbar {
-    background-color: #ff6900;
-    height: 60px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    height: 60px;
     width: 100%;
 }
 
@@ -42,4 +42,26 @@ header {
 
 .icons-header {
     color: white;
+}
+
+/* Main */
+
+main {
+    padding-top: 100px;
+}
+
+.cards {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: calc(100% / 3 - (40px / 3));
+    border: solid 1px #ccc;
+    position: relative;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
 }

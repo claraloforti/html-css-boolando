@@ -140,13 +140,17 @@ img {
 
 /* Footer */
 
+footer {
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+}
+
 a {
     text-decoration: none;
 }
 
-footer {
-    background-color: rgb(26, 26, 26);
-    width: 100%;
+.a-footer {
+    gap: 10px;
 }
 
 .navbar-contatti {

@@ -73,3 +73,14 @@ img {
 .card-description {
    font-size: 10px; 
 }
+
+.cuore {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 0 8px;
+    margin-top: 5px;
+    font-size: 18px;
+    display
+}

@@ -87,8 +87,21 @@ img {
     font-size: 18px;
 }
 
-.card:hover {
-    background-image: url("../imgs/1b.webp");
+.cuore:hover {
+    color: red;
+}
+
+.hover-img {
+    position: relative;
+    display: none;
+}
+
+.card:hover .nohover-img {
+    display: none;
+}
+
+.card:hover .hover-img {
+    display: block;
 }
 
 /* Etichette sconti e sostenibilità */
@@ -123,16 +136,4 @@ img {
     color: white;
 }
 
-.hover-img {
-    position: relative;
-    display: none;
-}
-
-.card:hover .nohover-img {
-    display: none;
-}
-
-.card:hover .hover-img {
-    display: block;
-}
 

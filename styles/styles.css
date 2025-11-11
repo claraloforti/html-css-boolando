@@ -7,4 +7,39 @@
 
 /* Generali */
 
+.flex {
+    display: flex;
+}
 
+.containter {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #ff6900;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.categories a{
+    color: white; 
+    text-decoration: none;
+}
+
+.logo-boolean {
+    height: 25px;
+}
+
+.icons-header {
+    color: white;
+}

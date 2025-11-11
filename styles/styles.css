@@ -21,6 +21,11 @@
     color: red;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 
 /* Header */
 
@@ -37,10 +42,6 @@ header {
     width: 100%;
 }
 
-.categories a {
-    color: white;
-    text-decoration: none;
-}
 
 .logo-boolean {
     height: 25px;
@@ -137,3 +138,26 @@ img {
 }
 
 
+/* Footer */
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+}
+
+.navbar-contatti {
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+.info-boolando, .social-boolando {
+ color: white;
+ font-size: 12px;
+ line-height: 22px;
+}

@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* Generali */
 
 .flex {
@@ -19,6 +20,7 @@
 .color-red {
     color: red;
 }
+
 
 /* Header */
 
@@ -35,8 +37,8 @@ header {
     width: 100%;
 }
 
-.categories a{
-    color: white; 
+.categories a {
+    color: white;
     text-decoration: none;
 }
 
@@ -47,6 +49,7 @@ header {
 .icons-header {
     color: white;
 }
+
 
 /* Main */
 
@@ -71,7 +74,7 @@ img {
 }
 
 .card-description {
-   font-size: 10px; 
+    font-size: 10px;
 }
 
 .cuore {
@@ -82,5 +85,54 @@ img {
     padding: 0 8px;
     margin-top: 5px;
     font-size: 18px;
-    display
 }
+
+.card:hover {
+    background-image: url("../imgs/1b.webp");
+}
+
+/* Etichette sconti e sostenibilità */
+
+.discount-label {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    font-size: 10px;
+    padding: 3px 6px;
+    background-color: red;
+    color: white;
+}
+
+.sostenibilita-label {
+    position: absolute;
+    bottom: 60px;
+    left: 37px;
+    font-size: 10px;
+    padding: 3px 6px;
+    background-color: green;
+    color: white;
+}
+
+.sostenibilita-single-label {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    font-size: 10px;
+    padding: 3px 6px;
+    background-color: green;
+    color: white;
+}
+
+.hover-img {
+    position: relative;
+    display: none;
+}
+
+.card:hover .nohover-img {
+    display: none;
+}
+
+.card:hover .hover-img {
+    display: block;
+}
+
